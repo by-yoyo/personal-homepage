@@ -1,0 +1,9 @@
+{
+  "/[language]/about/page": "app/[language]/about/page.js",
+  "/[language]/link/page": "app/[language]/link/page.js",
+  "/[language]/profile/page": "app/[language]/profile/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+}

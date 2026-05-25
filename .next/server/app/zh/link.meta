@@ -1,0 +1,18 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</_next/static/media/797e433ab948586e-s.p.09zddjkbdep5a.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[language]/layout,_N_T_/[language]/link/layout,_N_T_/[language]/link/page,_N_T_/zh/link"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$language/link/__PAGE__",
+    "/$d$language/link",
+    "/$d$language",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "/[language]/about/page": "/[language]/about",
+  "/[language]/link/page": "/[language]/link",
+  "/[language]/profile/page": "/[language]/profile",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml"
+}
