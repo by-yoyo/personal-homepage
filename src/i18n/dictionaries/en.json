@@ -1,0 +1,10 @@
+{
+	"site": {
+		"title": "Personal Homepage",
+		"description": "Welcome to my personal homepage"
+	},
+	"home": {
+		"greeting": "Hello, {name}!",
+		"intro": "Welcome to my website"
+	}
+}
