@@ -10,7 +10,15 @@ function getLocale(request: NextRequest): Locale {
 
   const languages = new Negotiator({ headers: negotiatorHeaders }).languages();
 
-  return match(languages, [...locales], defaultLocale) as Locale;
+  if (!languages || languages.length === 0) {
+		return defaultLocale;
+	}
+
+	try {
+		return match(languages, [...locales], defaultLocale) as Locale;
+	} catch {
+		return defaultLocale;
+	}
 }
 
 export function proxy(request: NextRequest) {

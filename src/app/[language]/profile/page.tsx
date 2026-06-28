@@ -5,8 +5,8 @@ export default async function Profile({ params }: { params: LocaleParams }) {
 
 	return (
 		<div>
-			<h1>{t("home.greeting", { name: "访客" })}</h1>
-			<p>{t("home.intro")}</p>
+			<h1>{t('home.greeting', { name: '访客' })}</h1>
+			<p>{t('home.intro')}</p>
 		</div>
 	);
 }
